@@ -22,7 +22,7 @@ string string3 = string1 + string2;
 Console.WriteLine(string3);
 //try flipping the flipMe string, and store the result in flippedString
 string flipMe = "I am a string";
-string flippedString = string.Empty;
+string flippedString = "";
 for (int i = flipMe.Length-1; i >=0 ; i--) //read this carefully
 {
     

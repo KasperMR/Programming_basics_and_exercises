@@ -135,6 +135,8 @@ iAmAString.Contains("world");
 
 //E21
 //https://programmering.systime.dk/?id=162#c1090
+//try googling the problem instead of reinventing the wheel
 
 //E22
 //https://programmering.systime.dk/?id=162#c1097
+//return an array instead of a list
