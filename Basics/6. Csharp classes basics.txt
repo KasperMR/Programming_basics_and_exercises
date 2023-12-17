@@ -1,0 +1,99 @@
+namespace ClassesIntro
+{
+    public class MainClass
+    {
+        static void Main(string[] args)
+        {
+            //to create a new instance of a class follow the below structure, an object we use the below syntax
+            /*variableType variableName = new ClassName();*/
+            EmptyClass emptyClass = new EmptyClass();
+            //note here that my Class name starts with captial E and my variable name starts with lowercase e. This is enough to differentiate them
+
+
+            //by default, calling the ToString function on an object from a programmer defined class will return just the name of the class
+            Console.WriteLine(emptyClass.ToString());
+
+            Console.WriteLine("");
+            ClassWithProperties classWithProperties = new ClassWithProperties();
+            Console.WriteLine(classWithProperties.ToString());
+
+            //we can reference the public variables inside an instance of a class by referencing the variable name of the object, followed by the name of the internal variable
+            Console.WriteLine("the default values");
+            Console.WriteLine(classWithProperties.prop1);
+            Console.WriteLine(classWithProperties.prop2);
+            classWithProperties.prop1 = "for the machine is immortal";
+            classWithProperties.prop2 = 11111;
+            Console.WriteLine("the modified values");
+            Console.WriteLine(classWithProperties.prop1);
+            Console.WriteLine(classWithProperties.prop2);
+
+
+            Console.WriteLine("");
+            ClassWithPropertiesAndConstructor classWithPropertiesAndConstructor = new ClassWithPropertiesAndConstructor();
+            Console.WriteLine(classWithPropertiesAndConstructor.ToString());
+            Console.WriteLine(classWithPropertiesAndConstructor.prop1);
+            Console.WriteLine(classWithPropertiesAndConstructor.prop2);
+            Console.WriteLine(classWithPropertiesAndConstructor.IAmAfunctionInAClass());
+
+
+            Console.WriteLine("");
+            ClassWithPropertiesAndConstructor classWithPropertiesAndConstructorParameters = new ClassWithPropertiesAndConstructor("ayy lmao", 42069);
+            Console.WriteLine(classWithPropertiesAndConstructorParameters.ToString());
+            Console.WriteLine(classWithPropertiesAndConstructorParameters.prop1);
+            Console.WriteLine(classWithPropertiesAndConstructorParameters.prop2);
+            Console.WriteLine(classWithPropertiesAndConstructorParameters.IAmAfunctionInAClass());
+
+            //the above two lumps of code create two objects from the same class, but the first doesnt provide the any parameters to the constructor
+            //while the second lump does, which causes it to have different content in its variables
+        }
+    }
+    public class EmptyClass
+    {
+        //this is a completely empty class
+    }
+
+    public class ClassWithProperties
+    {
+        //classes can have default variables
+        public string prop1 = "hello world";
+        public int prop2 = 420;
+    }
+
+    public class ClassWithPropertiesAndConstructor
+    {
+        public string prop1 = "hello world";
+        public int prop2 = 420;
+
+        //constructurs allow you to setup the new class instance
+        //note the format is "public ClassName()", the return type is automatically an instance of the class
+        public ClassWithPropertiesAndConstructor()
+        {
+            prop1 = "world hello";
+            prop2 = 69;
+        }
+
+        //you can have the same function name multiple times, so long as they take different sets of parameters
+        public ClassWithPropertiesAndConstructor(string prop1, int prop2) //including parameters in the constructor
+        {
+            //this.prop1 means the variable in the class, while prop1 is the variable in the function parameter
+            this.prop1 = prop1;
+            this.prop2 = prop2;
+        }
+
+        public string IAmAfunctionInAClass()
+        {
+            return (prop1 + " " + prop2);
+        }
+    }
+
+    //create a class to make a person with properties for gender, name, age, height, and whatever other parameters you can think of.
+
+    //in the class create a function to greet someone, stating your above properties
+
+    //create a function overwrite for the above function, that takes another person as a parameter
+
+    //create a function to have a birthday that increases the age, and prints a happy birthday message
+
+    //Create another class representing a car with at least 6 different properties
+
+}
