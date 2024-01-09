@@ -88,9 +88,11 @@ namespace ClassesIntro
 
     //create a class to make a person with properties for gender, name, age, height, and whatever other parameters you can think of.
 
+    //Write a constructor to recieve all of the above properties
+
     //in the class create a function to greet someone, stating your above properties
 
-    //create a function overwrite for the above function, that takes another person as a parameter
+    //create a function overwrite for the above function, that takes another person as a parameter, greeting the other person by name
 
     //create a function to have a birthday that increases the age, and prints a happy birthday message
 

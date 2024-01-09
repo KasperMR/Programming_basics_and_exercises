@@ -20,7 +20,7 @@ Console.WriteLine("second: " + DateTime.Now.Second.ToString());
 
 //E3
 //Youve been hired by the pokemon company to create the next generations pokemon names.
-//But unfortunately youve procrastinated and dont have time to come up with 500 new names manually,
+//But unfortunately you've procrastinated and don't have time to come up with 500 new names manually,
 //so you decide to write a program to randomly generate the names from the english alphabet,
 //with a random length between 4 and 18 characters.
 //write the names to the console
