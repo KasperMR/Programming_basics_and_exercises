@@ -1,37 +1,57 @@
 Console.WriteLine("You can ask a programming language a yes no question in the form of a boolean statement.");
-Console.WriteLine("There are 5 ways to compare two things in programming: ==, >, >=, <, <=\n");
+Console.WriteLine("There are 5 ways to compare two things in programming: ==, >, >=, <, <=");
+// == demands that both sides are equal to each other
+// > and < are the same as we use in math, one side being greater than the other. This can also be used to compare other things than numbers, such as text
+// <= and >= work the same as above, however they also allow the sides to be equal to each other.
+Console.WriteLine();
 
+//This is the simplest form of a boolean statement, where we only want to do anything when the statement is true
+if(1 == 1)
+{
+    System.Console.WriteLine("(1==1) is always true");
+}
 
+//However we can include an else statement to do something else when the statment isnt true.
 if (1 == 2)
 {
-    Console.WriteLine("1 equals 2");
+    Console.WriteLine("1 equals 2. 1");
 }
 else
 {
-    Console.WriteLine("1 does not equal 2");
+    Console.WriteLine("1 does not equal 2. 1");
 }
+
+//Finally we can include multiple different paths, each with their own condition for happening
+if (1 == 2)
+{
+    Console.WriteLine("1 equals 2. 3");
+}
+else if (1 == 3)
+{
+    Console.WriteLine("1 does not equal 2. 3");
+}
+else
+{
+    Console.WriteLine("1 is not equal to either 2 or 3");
+}
+
 //why doesnt this work?
 //hint: try hovering your cursor over each number
 if ("1" == 2)
 {
-    Console.WriteLine("1 equals 2");
+    Console.WriteLine("1 equals 2. 2");
 }
 else
 {
-    Console.WriteLine("1 does not equal 2");
+    Console.WriteLine("1 does not equal 2. 2");
 }
 
-if ("1" == 2)
+//We can also use variables to contain the information we want to compare
+int x = 1;
+int y = 2;
+if (y > x)
 {
-    Console.WriteLine("1 equals 2");
-}
-else if (1 == 2)
-{
-    Console.WriteLine("1 does not equal 2");
-}
-else
-{
-    Console.WriteLine("why did i end up down here?");
+    System.Console.WriteLine("y > x");
 }
 
 //EXERCISES
@@ -42,7 +62,7 @@ else
 
 
 //2
-//make an if statement that determines if the random number is under or over 50
+//make an if statement that determines if the random number is under or over 50. Below i have set up a random number generator for you.
 Random rnd = new Random(); //starting up the random number generator
 int number = rnd.Next(0, 100); //generating a random number from 0 to 99, note that 100 is excluded
 
