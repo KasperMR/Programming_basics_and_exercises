@@ -58,8 +58,7 @@ for (int i = 0; i < myName.Length; i++)
 
 
 //E5
-//complete the pokemon name vowel inclusion exercise with including the positions of the vowels in the name generation
-//then use even more random number generation. 
+//Rewrite the pokemon name generator, predetermining the number and position of the vowels, using random number generation for both, then build the name string
 
 
 //E6
