@@ -59,7 +59,8 @@ for (int i = 0; i < myName.Length; i++)
 
 //E5
 //Rewrite the pokemon name generator, predetermining the number and position of the vowels, using random number generation for both, then build the name string
-
+//E5.1 
+//calculate the odds of generating the name "pikachu", first with the E3 solution, then with the E5 solution
 
 //E6
 //Retrofit your pokemon name generator to be a function, with the length of the names as a parameter
