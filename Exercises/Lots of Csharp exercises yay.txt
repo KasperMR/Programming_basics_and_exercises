@@ -131,7 +131,6 @@ iAmAString.Contains("world");
 //remember individual characters in strings can be referenced like variables in an array
 
 //E20
-//https://programmering.systime.dk/?id=162#c1088 
 
 //E21
 //https://programmering.systime.dk/?id=162#c1090
@@ -140,3 +139,18 @@ iAmAString.Contains("world");
 //E22
 //https://programmering.systime.dk/?id=162#c1097
 //return an array instead of a list
+
+//E23
+//Create a function that takes 2 integer parameters, a lower bound and an upper bound, then calculate and return the sum of all the integers between the upper and lower bound, including both the upper and lower bound
+
+//E24
+//Create another function like the one in E23, but that excludes both the upper and lower bound, i.e. if the lower bound is 1 and the upper bound is 5, then it starts at 2 and ends at 4
+
+//E25
+//Create a function that takes an array of floats, and a boolean as a parameter, if the boolean parameter is true, return the largest number in the array, if the boolean is false, return the index of the largest number in the array
+
+//E26
+//Create a function that returns nothing, but prints the multiplication table of the first integer parameter, and how deep into the multiplication table it should go as the second parameter.
+
+//E27
+//Create a function that takes an integer parameter, and returns wether it is a prime number
