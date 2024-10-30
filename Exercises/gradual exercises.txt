@@ -1,0 +1,39 @@
+Exercise 21: Basic Input and Output
+Write a program that asks the user for their name and age, then prints a greeting message with their name and age. 
+Store the name in a string variable and age in an int variable.
+
+Exercise 22: Age Group Checker
+Expand the previous program by adding an if statement that checks the user's age. 
+Print a different message depending on whether the user is a child (under 12), a teenager (12 to 18), an adult (19 to 65), or a senior (over 65).
+
+Exercise 23: Calculate Age in Months
+Extend the age group program to calculate the user’s age in months (age * 12) and print it. Use a simple mathematical operation with the age variable.
+
+Exercise 24: Age Loop
+Modify the program so that it keeps asking the user for their age until they enter a valid number between 0 and 120. Use a while loop to validate the input.
+
+Exercise 25: Calculate Average Age
+Extend the program to ask for the age of 5 different people and store these ages in an array. 
+Use a for loop to calculate and print the average age.
+
+Exercise 26: Find Youngest and Oldest Person
+Using the array from the previous exercise, modify the program to find and print the youngest and oldest ages in the array. 
+Use a for loop and if statements to determine the minimum and maximum values.
+
+Exercise 27: Names and Ages
+Modify the program to store both names and ages of 5 people in separate arrays (one for names, one for ages). 
+Print each person’s name along with their age.
+
+Exercise 28: Find Specific Person
+Modify the previous program to allow the user to search for a person’s name. 
+If the name is found, print the person’s name and age. 
+Use a for loop to search through the names array and print the matching age from the ages array.
+
+Exercise 29: Sort People by Age
+Using the names and ages arrays from the previous exercise, sort the people by their ages in ascending order. 
+Display each person’s name and age after sorting. https://www.w3schools.com/cs/cs_arrays_sort.php.
+
+Exercise 30: Display People in Age Groups
+Expand the sorted people program to categorize and display the people in the following groups: 
+children (under 12), teenagers (12-18), adults (19-65), and seniors (over 65). 
+Use loops and if statements to handle the grouping.
