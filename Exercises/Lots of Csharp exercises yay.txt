@@ -71,10 +71,10 @@ for (int i = 0; i < myName.Length; i++)
 
 
 //E8 
-//Write functions that recreate the results of multiplcation, division(with remainder), and faculty, using only plus and minus with loops
+//Write functions that recreate the results of multiplication, division(with remainder), and faculty, using only plus and minus with loops
 
 //E9
-//create a program that generates a random whole number between 1 and 10 (the Next function exludes the max value), 
+//create a program that generates a random whole number between 1 and 10 (the Next function excludes the max value), 
 //then make the player try to guess the number over and over until they guess correctly (using Console.ReadLine to get player input)
 int intOne = 1;
 string stringOne = intOne.ToString();
@@ -104,10 +104,10 @@ string iAmAString = "i have overwritten hello world";
 iAmAString.Contains("world");
 
 //E14
-//Write two functions, one for converting celsius to farenheit, and another for the reverse, returning the converted value for both functions
+//Write two functions, one for converting celsius to fahrenheit, and another for the reverse, returning the converted value for both functions
 
 //E15
-//Write a function that uses a loop to recieve number inputs from the user, but only saves the highest number, 
+//Write a function that uses a loop to receive number inputs from the user, but only saves the highest number, 
 //return the highest input number and end the function when the user inputs "Quit"
 
 //E16
@@ -153,4 +153,4 @@ iAmAString.Contains("world");
 //Create a function that returns nothing, but prints the multiplication table of the first integer parameter, and how deep into the multiplication table it should go as the second parameter.
 
 //E27
-//Create a function that takes an integer parameter, and returns wether it is a prime number
+//Create a function that takes an integer parameter, and returns whether it is a prime number
